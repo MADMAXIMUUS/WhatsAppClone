@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MainTabView: View {
+    
     init() {
         makeTabBarOpaque()
     }
@@ -19,17 +20,17 @@ struct MainTabView: View {
                     Image(systemName: Tab.updates.icon)
                     Text(Tab.updates.title)
                 }
-            placeHolderItemView("Calls")
+            CallsTabScreen()
                 .tabItem {
                     Image(systemName: Tab.calls.icon)
                     Text(Tab.calls.title)
                 }
-            placeHolderItemView("Comunities")
+            CommunityTabScreen()
                 .tabItem {
                     Image(systemName: Tab.comunities.icon)
                     Text(Tab.comunities.title)
                 }
-            placeHolderItemView("Chats")
+            ChatsTabScreen()
                 .tabItem {
                     Image(systemName: Tab.chats.icon)
                     Text(Tab.chats.title)
