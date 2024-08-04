@@ -13,8 +13,12 @@ struct ChatsTabScreen: View {
         NavigationStack{
             List{
                 archivedButton()
-                ForEach(0..<1){ _ in
-                    ChatItemView()
+                ForEach(0..<12){ _ in
+                    NavigationLink{
+                        ChatRoomScreen()
+                    } label: {
+                        ChatItemView()
+                    }
                 }
                 inboxFooterView()
                     .listRowSeparator(.hidden)
@@ -50,23 +54,21 @@ extension ChatsTabScreen {
     
     @ToolbarContentBuilder
     private func trailingNavItem() -> some ToolbarContent {
-        ToolbarItem(placement: .topBarTrailing){
-            HStack{
-                Button {
+        ToolbarItemGroup(placement: .topBarTrailing){
+            Button {
                     
-                } label: {
-                    Image(.circle)
-                }
-                Button {
+            } label: {
+                Image(.circle)
+            }
+            Button {
                     
-                } label: {
-                    Image(systemName: "camera")
-                }
-                Button {
+            } label: {
+                Image(systemName: "camera")
+            }
+            Button {
                     
-                } label: {
-                    Image(.plus)
-                }
+            } label: {
+                Image(.plus)
             }
         }
     }
