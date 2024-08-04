@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBGlGg-_vwko8W34oIQvHIoqnrYN9RGwjo</string>
+	<string>AIzaSyCDPqyIsmZuOP7OiAeSHSOj_8oiQaHAojE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1062051977481</string>
+	<string>702893399518</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>ru.madmaximuus.WhatsAppClone</string>
 	<key>PROJECT_ID</key>
-	<string>whatsapp-clone-33a31</string>
+	<string>whatsappclone-4f524</string>
 	<key>STORAGE_BUCKET</key>
-	<string>whatsapp-clone-33a31.appspot.com</string>
+	<string>whatsappclone-4f524.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1062051977481:ios:bc83ba5e1bbcf3756fdbd8</string>
+	<string>1:702893399518:ios:34a120c526099cca9c514f</string>
 </dict>
 </plist>

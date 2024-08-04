@@ -17,7 +17,6 @@
 		9407A4152C5F034100772CA2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9407A4142C5F034100772CA2 /* FirebaseDatabase */; };
 		9407A4172C5F034100772CA2 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9407A4162C5F034100772CA2 /* FirebaseMessaging */; };
 		9407A4192C5F034100772CA2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9407A4182C5F034100772CA2 /* FirebaseStorage */; };
-		9407A41B2C5F054A00772CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9407A41A2C5F054A00772CA2 /* GoogleService-Info.plist */; };
 		948D07A52C5A4A7400884BE3 /* WhatsAppCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D07A42C5A4A7400884BE3 /* WhatsAppCloneApp.swift */; };
 		948D07A92C5A4A7500884BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948D07A82C5A4A7500884BE3 /* Assets.xcassets */; };
 		948D07AC2C5A4A7500884BE3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948D07AB2C5A4A7500884BE3 /* Preview Assets.xcassets */; };
@@ -34,6 +33,7 @@
 		948D07EE2C5D1CA000884BE3 /* ChatRoomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D07ED2C5D1CA000884BE3 /* ChatRoomScreen.swift */; };
 		948D07F02C5D214900884BE3 /* TextInputArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D07EF2C5D214900884BE3 /* TextInputArea.swift */; };
 		948D07F22C5D26B500884BE3 /* MessageListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948D07F12C5D26B500884BE3 /* MessageListController.swift */; };
+		94E4B2342C5F8A3D009865A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94E4B2332C5F8A3D009865A3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,6 @@
 		9407A40A2C5D907C00772CA2 /* BubbleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleImageView.swift; sourceTree = "<group>"; };
 		9407A40C2C5E7D6A00772CA2 /* MessageBubbleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleBackground.swift; sourceTree = "<group>"; };
 		9407A40F2C5EFBBB00772CA2 /* BubbleAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleAudioView.swift; sourceTree = "<group>"; };
-		9407A41A2C5F054A00772CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		948D07A12C5A4A7400884BE3 /* WhatsAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948D07A42C5A4A7400884BE3 /* WhatsAppCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppCloneApp.swift; sourceTree = "<group>"; };
 		948D07A82C5A4A7500884BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		948D07ED2C5D1CA000884BE3 /* ChatRoomScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomScreen.swift; sourceTree = "<group>"; };
 		948D07EF2C5D214900884BE3 /* TextInputArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputArea.swift; sourceTree = "<group>"; };
 		948D07F12C5D26B500884BE3 /* MessageListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListController.swift; sourceTree = "<group>"; };
+		94E4B2332C5F8A3D009865A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 		948D07A32C5A4A7400884BE3 /* WhatsAppClone */ = {
 			isa = PBXGroup;
 			children = (
-				9407A41A2C5F054A00772CA2 /* GoogleService-Info.plist */,
+				94E4B2332C5F8A3D009865A3 /* GoogleService-Info.plist */,
 				9407A4072C5D810100772CA2 /* Helpers */,
 				948D07D32C5AE1E600884BE3 /* Screens */,
 				948D07A42C5A4A7400884BE3 /* WhatsAppCloneApp.swift */,
@@ -336,7 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				948D07AC2C5A4A7500884BE3 /* Preview Assets.xcassets in Resources */,
-				9407A41B2C5F054A00772CA2 /* GoogleService-Info.plist in Resources */,
+				94E4B2342C5F8A3D009865A3 /* GoogleService-Info.plist in Resources */,
 				948D07D22C5A9C1100884BE3 /* .gitignore in Resources */,
 				948D07A92C5A4A7500884BE3 /* Assets.xcassets in Resources */,
 			);
